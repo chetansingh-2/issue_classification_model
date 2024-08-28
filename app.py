@@ -2,7 +2,7 @@ from flask import Flask, request, jsonify
 from transformers import pipeline
 import os
 
-os.environ['TRANSFORMERS_CACHE'] = '/tmp/huggingface_cache'
+# os.environ['TRANSFORMERS_CACHE'] = '/tmp/huggingface_cache'
 
 
 app = Flask(__name__)
